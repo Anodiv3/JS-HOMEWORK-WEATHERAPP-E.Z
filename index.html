@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Protest+Strike&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+<div class="containerForEverything">
+    <div class="toggleThemes">
+        <button class="toggleTheme">Change theme</button>
+    </div>
+
+        <div class="containerForMainInfo">
+            <div class="selector-container">
+                <label for="city-selector">Select a City:</label>
+                <select class="city-selector" id="city-selector"></select>
+            </div>
+
+            <p class="city-name"></p>
+            <p class="description"></p>
+            <p class="imageIcon"></p>
+        </div>
+      
+        <div class="containerForOtherInfo">
+            <p class="temperature"></p>
+            <p class="pressureOut"></p>
+            <p class="windSpeedOut"></p>
+            <p class="windIMGContainer"><svg class="imgWindDirection" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8.009 8.009 0 0 1-8 8z"/><path d="M13 13.586V8h-2v5.586l-2.293-2.293-1.414 1.414L12 17.414l4.707-4.707-1.414-1.414L13 13.586z"/></svg></p>
+            <p class="windDegOut"></p>
+        </div>
+     
+        <div style="margin-top:20px">
+            <p>тут может быть ваша реклама</p>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+    <script src="styles.js"></script>
+</body>
+</html>
